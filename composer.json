@@ -7,7 +7,7 @@
         "php": "^8.4",
         "ext-json": "*",
         "psr/simple-cache": "^3.0",
-        "wilycode/database-driver": "^0.1",
+        "wilycode/database": "^0.1",
         "wilycode/translation": "^0.1.1"
     },
     "require-dev": {
@@ -70,7 +70,7 @@
     ],
     "suggest": {
         "wilycode/translation-languages": "Ready-made language pluralization rules; optional if you supply your own LanguageInterface.",
-        "wilycode/database-driver-pdo": "PDO driver implementation for database access."
+        "wilycode/database-pdo": "PDO driver implementation for database access."
     },
     "homepage": "https://github.com/wilycode/translation-database",
     "support": {

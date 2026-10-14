@@ -2,6 +2,13 @@
 
 All notable changes to WilyCode Translation Database are documented here.
 
+## [Unreleased]
+
+### Changed
+
+- Updated the database contract dependency to `wilycode/database`.
+- Updated the suggested PDO adapter to `wilycode/database-pdo` and refreshed documentation.
+
 ## [0.1.0] - 2026-10-14
 
 ### Added
