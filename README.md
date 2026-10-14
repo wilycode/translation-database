@@ -53,9 +53,9 @@ Store messages in database tables while keeping application code dependent on a 
 
 - PHP **8.4** or newer, with the JSON extension.
 - [`wilycode/translation`](https://github.com/wilycode/translation) **`^0.1.1`** (required).
-- [`wilycode/database-driver`](https://github.com/wilycode/database-driver) **`^0.1`** (required contract).
+- [`wilycode/database`](https://github.com/wilycode/database) **`^0.1`** (required contract).
 - [`psr/simple-cache`](https://packagist.org/packages/psr/simple-cache) **`^3.0`** (required interface; a cache implementation is optional at runtime).
-- A database adapter supplied by your application (for example, [`wilycode/database-driver-pdo`](https://github.com/wilycode/database-driver-pdo)).
+- A database adapter supplied by your application (for example, [`wilycode/database-pdo`](https://github.com/wilycode/database-pdo)).
 - A `LanguageInterface` implementation. The ready-made languages in [`wilycode/translation-languages`](https://github.com/wilycode/translation-languages) are optional.
 
 ## Installation
@@ -363,7 +363,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and [CHANGELO
 | [`wilycode/translation-languages`](https://github.com/wilycode/translation-languages) | Language pluralization rules and regional resources |
 | [`wilycode/translation-array`](https://github.com/wilycode/translation-array) | PHP array-based translation provider |
 | [`wilycode/translation-database`](https://github.com/wilycode/translation-database) | Database-backed translation provider (this package) |
-| [`wilycode/database-driver`](https://github.com/wilycode/database-driver) | Database abstraction used by the provider |
+| [`wilycode/database`](https://github.com/wilycode/database) | Database abstraction used by the provider |
 
 ## License
 
